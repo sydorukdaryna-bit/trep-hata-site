@@ -1,30 +1,55 @@
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="uk">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Контакти — Треп Хата</title>
-<link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Контакти - Треп Хата</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<header>
-  <h1>Контакти</h1>
-  <nav>
-    <a href="index.html">Головна</a>
-    <a href="menu.html">Меню</a>
-    <a href="rules.html">Правила</a>
-  </nav>
-</header>
+  <div class="container">
+    <header class="header">
+      <div class="brand">
+        <div class="logo">ТХ</div>
+        <div>
+          <div class="title">Контакти</div>
+          <div class="small">Треп Хата - с. Мирин</div>
+        </div>
+      </div>
+      <nav class="nav" id="navLinks">
+        <a href="index.html">Головна</a>
+        <a href="events.html">Події</a>
+        <a href="vip.html">VIP — Усадьба</a>
+        <a href="contacts.html">Контакти</a>
+      </nav>
+      <div class="mobile-nav">
+        <button id="menuBtn" class="btn">Меню</button>
+      </div>
+    </header>
 
-<section class="contacts">
-  <p><b>Адреса:</b> Волинська область, Ковельський район, село Мирин</p>
-  <p><b>Телефон:</b> 0 (98) 905 44 35</p>
-  <p><b>Години роботи:</b> п’ятниця та субота з 20:00 до 6:00</p>
-</section>
+    <main>
+      <section style="margin-top:18px">
+        <h2 style="color:var(--neon)">Як нас знайти</h2>
+        <p class="small" style="margin-top:6px">Адреса: с. Мирин, Ковельський район, Волинська область.</p>
+        <p class="small">Телефон для зв'язку та бронювання: <a href="tel:+380989054435" style="color:var(--neon);text-decoration:none">0 (98) 905 44 35</a>.</p>
 
-<footer>
-  <p>© 2025 Треп Хата</p>
-</footer>
+        <div style="margin-top:12px" class="card">
+          <h4>Поширені питання</h4>
+          <div class="small">
+            <strong>Чи є вхідний квиток?</strong><br/>Так — 100 ₴.<br/><br/>
+            <strong>Чи можна бронювати столики?</strong><br/>Так — через телефон.<br/><br/>
+            <strong>Яка музика?</strong><br/>All music — від хіп‑хопу до EDM.
+          </div>
+        </div>
+
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="small">© Треп Хата</div>
+      <div class="small">Контакт: <a href="tel:+380989054435" style="color:var(--neon);text-decoration:none">0 (98) 905 44 35</a></div>
+    </footer>
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>
